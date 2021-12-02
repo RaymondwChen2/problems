@@ -1,13 +1,6 @@
 // 345. Reverse Vowels of a String
 // Easy
 
-// 1322
-
-// 1670
-
-// Add to List
-
-// Share
 // Given a string s, reverse only all the vowels in the string and return it.
 
 // The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both cases.
