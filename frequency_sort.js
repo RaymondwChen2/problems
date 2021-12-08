@@ -25,12 +25,11 @@
 // Note that 'A' and 'a' are treated as two different characters.
 
 
-
 var frequencySort = function (s) {
     let charObj = {};
     let charArr = [];
     let newStr = '';
-
+    
     for (let i = 0; i < s.length; i++) {
         if (charObj[s[i]]) {
             charObj[s[i]]++;
@@ -38,24 +37,25 @@ var frequencySort = function (s) {
             charObj[s[i]] = 1;
         }
     }
-
+    
     for (let ele in charObj) {
         charArr.push([ele, charObj[ele]]);
     }
 
     charArr.sort((a, b) => {
         return b[1] - a[1];
-    })
-
+    };
+    
     for (let i = 0; i < charArr.length; i++) {
         let charToAdd = charArr[i][0];
         let charFreq = charArr[i][1];
-
+        
         while (charFreq) {
             newStr += charToAdd;
             charFreq--;
         }
     }
-
+    
     return newStr;
 }
+console.log(frequencySort('Aabb'));
