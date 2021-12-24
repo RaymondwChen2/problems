@@ -44,7 +44,7 @@ var frequencySort = function (s) {
 
     charArr.sort((a, b) => {
         return b[1] - a[1];
-    };
+    });
     
     for (let i = 0; i < charArr.length; i++) {
         let charToAdd = charArr[i][0];

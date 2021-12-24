@@ -47,7 +47,7 @@ var finalValueAfterOperations = function (operations) {
         if (operations[i].includes('+')) {
             x++;
         } else {
-            x--
+            x--;
         }
     }
 
