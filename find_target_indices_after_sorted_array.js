@@ -30,7 +30,7 @@
 
 
 var targetIndices = function (nums, target) {
-    let sorted = nums.sort((a, b) => a - b)
+    let sorted = nums.sort((a, b) => a - b);
     let array = [];
 
     for (let i = 0; i < sorted.length; i++) {
