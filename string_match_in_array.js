@@ -24,7 +24,7 @@
 // Output: []
 
 var stringMatching = function (words) {
-    let arr = [];
+    let arr = []
 
     for (let i = 0; i < words.length; i++) {
         for (let j = 0; j < words.length; j++) {
@@ -34,5 +34,5 @@ var stringMatching = function (words) {
         }
     }
 
-    return arr;
+    return arr
 };
